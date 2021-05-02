@@ -32,7 +32,7 @@ with open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
 
 
 setup(
-    name='aioch',
+    name='aioch-ipv6',
     version=read_version(),
 
     description=(
@@ -83,7 +83,7 @@ setup(
 
     packages=['aioch'],
     install_requires=[
-        'clickhouse-driver>=0.1.2'
+        'clickhouse-driver-ipv6>=0.1.2'
     ],
     test_suite='nose.collector',
     tests_require=[
